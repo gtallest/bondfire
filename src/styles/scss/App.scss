@@ -1,0 +1,29 @@
+@import './base/__base.scss';
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $background;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #222;
+}
+
+p {
+  color: $main-font-color;
+}
+
+@import './components/__components';

@@ -1,0 +1,8 @@
+.photo-grid {
+  width: 85vw;
+  background-color: #333;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap; }
+  .photo-grid .photo {
+    flex-basis: calc(100%/3); }

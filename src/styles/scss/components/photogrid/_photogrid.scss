@@ -1,0 +1,23 @@
+.photo-grid {
+  width: 85vw;
+  background-color: $photo-grid-background;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 5px 5px 55px rgba(255,255,255,0.3);
+
+  .photo {
+    background-color: #555;
+    flex-basis: calc(100%/3);
+    height: 200px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+  }
+
+}
+

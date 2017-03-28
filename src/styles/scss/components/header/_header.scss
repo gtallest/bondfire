@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.navigation-bar {
+  width: 80vw;
+  background-color: #777;
+  position:relative;
+}
+
+.left-nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.right-nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.title-text {
+  font-size: 56px;
+  color: $main-font-color;
+}
