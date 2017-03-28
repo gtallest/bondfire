@@ -2,6 +2,10 @@
 
 BondFire is an Instagram-like social media app for Dark Souls fans. Add bonfires to real life snapshots and share with your fellow phantoms.
 
+````
+*Insert Sketch/Figma mockup image here*
+````
+
 ## Technology
 - React
 - Redux
